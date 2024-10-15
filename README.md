@@ -1,8 +1,10 @@
-# React + Vite
+# React core Concept part 1
+- Environment create with vite
+- JSX, its rules and add dynamic content to JSX in your first component
+- basics Normal Method & Destructuring Method
+- CSS style adding system 3 ways to add
+- import , Export
+- Condition based rendering
+- Six ways to do Conditional Rendering: If, Ternary and AND OR
+- (advanced) Rendering lists of users using map
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
