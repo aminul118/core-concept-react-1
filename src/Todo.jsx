@@ -28,7 +28,6 @@ export default function Todo({task, isDone}){
 }
      */
 
-
 // ! Conditional Rendering Option 3 (Ternary operator)
 /*
 export default function Todo({task, isDone}){
@@ -64,15 +63,13 @@ export default function Todo({task, isDone}){
 }
     */
 
-// ! Conditional Rendering Option 6 
+// ! Conditional Rendering Option 6
 let listItem;
-export default function Todo({task, isDone}){
-    if(isDone){
-        listItem = <li>Finished : {task}</li>
-    }
-    else{
-         listItem = <li>work on : {task}</li>
-    }
-    return listItem
-    }
-    
+export default function Todo({ task, isDone }) {
+  if (isDone) {
+    listItem = <li>Finished : {task}</li>;
+  } else {
+    listItem = <li>work on : {task}</li>;
+  }
+  return listItem;
+}
